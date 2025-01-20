@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenieMail - Email Reply Generator</title>
+    <style>
+        *{
+            margin:0
+        }
+       
+        .container {
+            width: 100%;
+            background: #ffffff;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin: 15px 0 25px;
+        }
+
+        .cta {
+            padding: 15px 30px;
+            background: linear-gradient(90deg, #10a37f, #119d87);
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            border: none;
+            outline: none;
+        }
+
+        .cta:hover {
+            background: linear-gradient(90deg, #0e8f71, #0f8b76);
+        }
+
+        .extension-info {
+            background: #fafafa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            text-align: left;
+        }
+
+        .extension-info h2 {
+            font-size: 1.8rem;
+            color: #333;
+        }
+
+        .extension-info p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .extension-info .cta {
+            margin-top: 20px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.85rem;
+            color: #aaa;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #10a37f;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 2.4rem;
+            }
+
+            .cta {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            .extension-info {
+                padding: 20px;
+            }
+
+            .extension-info h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>GenieMail</h1>
+        <p>Effortlessly generate professional and personalized email replies using the powerful Gemini API. Save time and enhance your productivity with just a click.</p>
+
+        <button class="cta" onclick="window.location.href='#'">Try It Now</button>
+
+        <!-- Chrome Extension Section -->
+        <div class="extension-info">
+            <h2>GenieMail Chrome Extension</h2>
+            <p>In addition to our web app, GenieMail is available as a Chrome Extension. This extension integrates seamlessly with your email inbox and allows you to generate replies directly within your email client, saving you even more time and effort.</p>
+            <button class="cta" onclick="window.location.href='#'">Add to Chrome</button>
+        </div>
+
+        <div class="footer">
+            Powered by GenieMail & Gemini API | Smart Reply Automation
+        </div>
+    </div>
+</body>
+
+</html>
